@@ -1,57 +1,60 @@
 # Customer Churn Prediction using ANN
 
-This project uses a trained Artificial Neural Network (ANN) model for predicting customer churn. The model is built using deep learning techniques and is designed to predict whether a customer is likely to churn based on various customer features. The goal is to provide insights for businesses to retain valuable customers.
+This project uses a trained Artificial Neural Network (ANN) model for predicting customer churn. The model leverages deep learning to analyze customer behavior and predict whether they are likely to churn. It helps businesses take proactive measures to retain customers and reduce attrition.
+
+---
 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Data](#data)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Model Training](#model-training)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [Deployed Application](#deployed-application)
+
+---
 
 ## Overview
 
-This project demonstrates how deep learning models, particularly Artificial Neural Networks (ANN), can be used to predict customer churn. Customer churn prediction can help businesses proactively identify customers at risk of leaving, allowing them to take appropriate actions to retain them.
+Customer churn prediction is crucial for businesses to identify and retain at-risk customers. This project demonstrates the use of deep learning, particularly Artificial Neural Networks (ANN), to predict churn based on customer features. 
 
-### Features:
+The application allows users to:
+1. Input customer details and predict churn probability.
+2. Gain insights into the model's predictions.
+3. Use the deployed web application to interact with the model.
 
-- Preprocessing and cleaning of customer data.
-- Model architecture with an ANN for classification.
-- Evaluation of model performance using metrics like accuracy, precision, and recall.
-- Visualization of results.
+---
+
+## Features
+
+- Data preprocessing: Cleaning, encoding, and scaling.
+- ANN model for binary classification.
+- Metrics for model evaluation: accuracy, precision, recall, F1-score.
+- Deployed web app for real-time predictions.
+
+---
 
 ## Technologies Used
 
-- Python
-- TensorFlow/Keras
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib/Seaborn
+- **Python**: Programming language for development.
+- **TensorFlow/Keras**: Building and training the ANN model.
+- **Streamlit**: For deploying the application.
+- **Pandas**: Data manipulation and preprocessing.
+- **Scikit-learn**: Encoding, scaling, and metrics.
+- **Matplotlib/Seaborn**: Visualizing results.
 
-## Data
+---
 
-The dataset used in this project is a fictional customer data with features such as customer demographics, usage patterns, and other behavior metrics. The dataset may include columns like:
-
-- Age
-- Tenure
-- Product usage
-- Customer satisfaction
-- Subscription type
-- Churn (target variable)
-
-You can find the dataset (or a similar one) from [source URL or dataset provider].
 
 ## Installation
 
-To get started, clone this repository and install the required dependencies:
+To set up the project locally:
 
-```bash
-git clone https://github.com/yourusername/customer-churn-prediction-ann.git
-cd customer-churn-prediction-ann
-pip install -r requirements.txt
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/customer-churn-prediction-ann.git
+
+## Deployed Application
+The project is deployed as an interactive web application using Streamlit. Users can input customer details to get real-time churn predictions.
+
+👉 Try the App Here: https://customer-churn-gut.streamlit.app/
